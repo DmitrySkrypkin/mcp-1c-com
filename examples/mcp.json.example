@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "upp-com": {
+      "command": "C:\\path\\to\\python.exe",
+      "args": ["C:\\path\\to\\mcp-1c-com\\server.py"],
+      "env": {
+        "ONEC_MCP_NAME": "upp-com",
+        "ONEC_SRVR": "localhost",
+        "ONEC_REF": "UPP",
+        "ONEC_USR": "User",
+        "ONEC_PWD": ""
+      }
+    },
+    "ka-com": {
+      "command": "C:\\path\\to\\python.exe",
+      "args": ["C:\\path\\to\\mcp-1c-com\\server.py"],
+      "env": {
+        "ONEC_MCP_NAME": "ka-com",
+        "ONEC_SRVR": "localhost",
+        "ONEC_REF": "KA",
+        "ONEC_USR": "User",
+        "ONEC_PWD": ""
+      }
+    }
+  }
+}
