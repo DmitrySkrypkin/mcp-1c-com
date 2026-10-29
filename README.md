@@ -58,7 +58,7 @@ AI-клиент  →  MCP (stdio)  →  Python  →  V83.COMConnector  →  ИБ
 ### 1. Клонировать и поставить зависимости
 
 ```powershell
-git clone https://github.com/<OWNER>/mcp-1c-com.git
+git clone https://github.com/DmitrySkrypkin/mcp-1c-com.git
 cd mcp-1c-com
 
 python -m venv .venv
