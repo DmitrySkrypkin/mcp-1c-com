@@ -53,6 +53,19 @@ AI-клиент  →  MCP (stdio)  →  Python  →  V83.COMConnector  →  ИБ
 
 ---
 
+## Установка через ИИ-агента
+
+Если MCP ставит Cursor/Claude/другой агент — дай ему файл **[`AGENTS.md`](AGENTS.md)** (пошаговый playbook: вопросы к пользователю, COM, Python, `mcp.json`, smoke-тест, чеклист).
+
+Короткий промпт:
+
+```text
+Установи MCP https://github.com/DmitrySkrypkin/mcp-1c-com по инструкции AGENTS.md
+в мой проект <путь>. База: Srvr="..."; Ref="..."; пользователь ...; пароль ...
+```
+
+---
+
 ## Быстрый старт
 
 ### 1. Клонировать и поставить зависимости
@@ -227,6 +240,7 @@ flowchart LR
 
 ```text
 mcp-1c-com/
+├── AGENTS.md              # Playbook для ИИ-агентов (установка)
 ├── server.py              # MCP stdio (FastMCP)
 ├── onec_com.py            # COM: запросы и метаданные
 ├── config.py              # Строка соединения из env
